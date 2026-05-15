@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo service nginx restart
+# Test the nginx configuration and restart the service
+sudo nginx -t && sudo systemctl restart nginx
